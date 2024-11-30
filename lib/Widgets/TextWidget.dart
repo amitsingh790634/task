@@ -1,3 +1,4 @@
+import 'package:google_fonts/google_fonts.dart';
 import 'package:task/Utils/allExports.dart';
 
 class TextWidget extends StatelessWidget {
@@ -50,8 +51,7 @@ class TextWidget extends StatelessWidget {
       maxLines: maxLines,
       style: style ??
           (useGoogleFont
-              ? GoogleFonts.getFont(
-                  fontFamily ?? 'Lato',
+              ? GoogleFonts.lato(
                   textStyle: TextStyle(
                     color: color ?? AppColors.kBlack,
                     height: height,

@@ -47,6 +47,10 @@ flutter:
     - assets/images/banner3.jpg
     - assets/images/banner4.jpg
     - assets/images/banner5.jpg
+    - assets/images/sbi.png
+    - assets/images/sofa1.png
+    - assets/images/sofa2.png
+    - assets/images/sofa3.png
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
