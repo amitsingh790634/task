@@ -79,7 +79,7 @@ class OfferCard extends StatelessWidget {
               height: 25,
               width: 25,
               decoration: const BoxDecoration(
-                  color: Colors.white, shape: BoxShape.circle),
+                  color: AppColors.kWhite, shape: BoxShape.circle),
             )),
         Positioned(
           right: -5,
@@ -87,7 +87,7 @@ class OfferCard extends StatelessWidget {
             height: 25,
             width: 25,
             decoration: const BoxDecoration(
-              color: Colors.white,
+              color: AppColors.kWhite,
               shape: BoxShape.circle,
             ),
           ),

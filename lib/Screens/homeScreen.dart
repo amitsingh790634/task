@@ -18,7 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Consumer<HomeProvider>(builder: (context, homeProvider, child) {
       return SafeArea(
-        child: Scaffold(
+        child: CustomScaffold(
+          backgroundColor: AppColors.kWhite,
           body: Padding(
             padding: EdgeInsets.all(screenWidth * 0.03), // Responsive padding
             child: Column(
